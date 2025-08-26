@@ -17,9 +17,6 @@ interface StatItemProps {
   label: string
 }
 
-interface FloatingShapeProps {
-  className: string
-}
 
 // Removed FloatingShape component as it's replaced by Squares background
 

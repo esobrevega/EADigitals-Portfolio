@@ -304,8 +304,10 @@ export const LogoLoop = React.memo<LogoLoopProps>(
               scaleOnHover &&
                 "transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover/item:scale-120"
             )}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             aria-hidden={!!(item as any).href && !(item as any).ariaLabel}
           >
+             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {(item as any).node}
           </span>
         ) : (
@@ -318,12 +320,19 @@ export const LogoLoop = React.memo<LogoLoopProps>(
               scaleOnHover &&
                 "transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover/item:scale-120"
             )}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             src={(item as any).src}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             srcSet={(item as any).srcSet}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             sizes={(item as any).sizes}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             width={(item as any).width}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             height={(item as any).height}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             alt={(item as any).alt ?? ""}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             title={(item as any).title}
             loading="lazy"
             decoding="async"
@@ -332,9 +341,11 @@ export const LogoLoop = React.memo<LogoLoopProps>(
         );
 
         const itemAriaLabel = isNodeItem
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
           ? ((item as any).ariaLabel ?? (item as any).title)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
           : ((item as any).alt ?? (item as any).title);
-
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const inner = (item as any).href ? (
           <a
             className={cx(
@@ -343,6 +354,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
               "hover:opacity-80",
               "focus-visible:outline focus-visible:outline-current focus-visible:outline-offset-2"
             )}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             href={(item as any).href}
             aria-label={itemAriaLabel || "logo link"}
             target="_blank"

@@ -4,11 +4,9 @@ import React, { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import Squares from '@/blocks/Backgrounds/Squares/Squares'
-import Particles from '@/blocks/Backgrounds/Particles/Particles'
 import { Home, Briefcase, FolderOpen, Info, Mail } from "lucide-react"; // icons
 import Aurora from '@/blocks/Backgrounds/Aurora/Aurora'
-import { SiCanva, SiGithub, SiGmail, SiGoogle, SiGooglecalendar, SiGoogledocs, SiGoogledrive, SiGooglesheets, SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiZod } from 'react-icons/si'
+import { SiGithub, SiGoogle, SiGooglecalendar, SiNextdotjs, SiTailwindcss, SiTypescript, SiZod } from 'react-icons/si'
 import LogoLoop from '@/blocks/Animations/LogoLoop/LogoLoop'
 import { FaReact } from 'react-icons/fa'
 import { Oswald } from "next/font/google";
@@ -650,7 +648,7 @@ export default function EADigitalsLanding() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let's discuss your requirements and create something amazing together. 
+            Let&apos;s discuss your requirements and create something amazing together. 
             Get a free consultation and quote for your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -683,7 +681,7 @@ export default function EADigitalsLanding() {
                 <div className="text-xl font-bold text-white">EA Digitals</div>
               </div>
               <p className="text-gray-400 max-w-md mb-4">
-                Your trusted partner for comprehensive digital solutions. From web development to hardware services, we've got you covered.
+                Your trusted partner for comprehensive digital solutions. From web development to hardware services, we&apos;ve got you covered.
               </p>
             </div>
             
