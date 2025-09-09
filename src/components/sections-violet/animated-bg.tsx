@@ -1,7 +1,7 @@
 import Aurora from "@/blocks/Backgrounds/Aurora/Aurora"
 import DarkVeil from "@/blocks/Backgrounds/DarkVeil/DarkVeil"
 
-export const AnimatedBackground = () => {
+export const AnimatedBackgroundV = () => {
     return (
         <div className="fixed inset-0 z-0">
             {/* <Particles
@@ -13,11 +13,18 @@ export const AnimatedBackground = () => {
           alphaParticles={false}
           disableRotation={true}
         /> */}
-            <Aurora
+            {/* <Aurora
                 colorStops={['#ffffff', '#90CAF9', '#62cbdb']}
                 blend={0.5}
                 amplitude={1.0}
                 speed={0.5}
+            /> */}
+            <DarkVeil
+                hueShift={20}
+                noiseIntensity={0.1}
+                scanlineIntensity={0.2}
+                scanlineFrequency={5}
+                warpAmount={0.05}
             />
         </div>
     )

@@ -94,14 +94,13 @@ export const LogoLoopSection = () => {
             
                 {/* Tools */}
                 <div className="w-full">
-                    <h1 className='text-center text-4xl mb-5'> Tools </h1>
                     <div className="w-screen overflow-hidden">
                         <LogoLoop
                         logos={genTools}
                         speed={50}
                         direction="left"
                         logoHeight={70}
-                        gap={42}
+                        gap={48}
                         pauseOnHover
                         scaleOnHover
                         fadeOut
@@ -114,7 +113,6 @@ export const LogoLoopSection = () => {
             
                 {/* Tech Stack */}
                 <div className="w-full">
-                    <h1 className='text-center text-4xl mb-5'> 🛠️ Technology Stack </h1>
                     <div className="w-screen overflow-hidden">
                         <LogoLoop
                         logos={techLogos}

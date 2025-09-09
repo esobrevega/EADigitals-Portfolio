@@ -13,6 +13,8 @@ import { ContactSection } from '@/components/sections/contact-section'
 import { FooterSection } from '@/components/sections/footer'
 import { AnimatedBackground } from '@/components/sections/animated-bg'
 import AnimatedHeadline from '@/components/sections/framer-slider';
+import  { WordStackSection } from '@/components/sections/snap-to-word';
+import { StickySticky } from '@/components/sections/sticky-sticky';
 
 const oswald = Oswald({ subsets: ["latin"], weight: ["300"] });
 
@@ -23,6 +25,7 @@ export default function EADigitalsLanding() {
       <AnimatedBackground />
       <NavBarFrosted />
       <HeroSection />
+      <StickySticky />
       <AnimatedHeadline />
       <ServicesSection2 />
       <LogoLoopSection />
