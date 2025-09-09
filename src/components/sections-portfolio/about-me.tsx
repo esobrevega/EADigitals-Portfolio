@@ -15,7 +15,7 @@ export const AboutMe = () => {
                     </Badge>
 
                     <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent">
-                        Hi, I'm Emmanuel Sobrevega
+                        Hi, I&apos;m Emmanuel Sobrevega
                     </h2>
 
                     <ul className="p-3 space-y-5">
@@ -30,7 +30,7 @@ export const AboutMe = () => {
                         ))}
                     </ul>
 
-                    <p>Experienced Business Operations Executive with a demonstrated history of working in the gambling & casinos industry. Skilled in English, C#, Typescipt, Grafana, Technical Support, and Google Apps Script. Strong operations professional with a Bachelor's degree focused in Computer Engineering from Pamantasan ng Lungsod ng Maynila. </p>
+                    <p>Experienced Business Operations Executive with a demonstrated history of working in the gambling & casinos industry. Skilled in English, C#, Typescipt, Grafana, Technical Support, and Google Apps Script. Strong operations professional with a Bachelor&apos;s degree focused in Computer Engineering from Pamantasan ng Lungsod ng Maynila. </p>
                     <div className="flex flex-col items-start mt-5">
                         <Button >
                             Get in Touch

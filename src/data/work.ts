@@ -1,4 +1,9 @@
-export const glowColors = [
+export interface Glow {
+  base: string;
+  shadow: string;
+}
+
+export const glowColors: Glow[] = [
     { base: "text-pink-400", shadow: "rgba(251,119,220," }, // pink
     { base: "text-purple-400", shadow: "rgba(192,132,252," }, // purple
     { base: "text-blue-400", shadow: "rgba(96,165,250," }, // blue
